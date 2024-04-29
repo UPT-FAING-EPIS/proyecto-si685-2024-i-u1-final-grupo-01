@@ -1,0 +1,14 @@
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\bin\Debug\net8.0\Exchanger.Domain.deps.json
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\bin\Debug\net8.0\Exchanger.Domain.dll
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\bin\Debug\net8.0\Exchanger.Domain.pdb
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.AssemblyInfoInputs.cache
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.AssemblyInfo.cs
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.dll
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\refint\Exchanger.Domain.dll
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.pdb
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\ref\Exchanger.Domain.dll
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\bin\Debug\net8.0\Exchanger.Domain.exe
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\bin\Debug\net8.0\Exchanger.Domain.runtimeconfig.json
+C:\Users\ELVIS\Pictures\AEA\Exchanger\Exchanger.Domain\obj\Debug\net8.0\Exchanger.Domain.genruntimeconfig.cache
