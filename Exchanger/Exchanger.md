@@ -4,55 +4,69 @@ classDiagram
 class CasaDeCambio {
     - nombre: String
     - direccion: String
+    - listaDeMoneda: List<Moneda>
+    + Dar_alta(Moneda: Moneda): void
+    + Dar_baja(Moneda: Moneda): void
 }
 
-class Cliente
-Cliente : +String NombreUsuario
-Cliente : +MedioDePago MedioDePago
-Cliente : +RealizarTransaccion() Boolean
-Cliente : +VerSaldoActual() Void
-Cliente : +VerHistorial() String
-Cliente : +LimpiarHistorialTransacciones() Void
-Cliente : +Depositar() Boolean
-Cliente : +Retirar() Boolean
-Cliente : +VerificarCredenciales() Boolean
+class Moneda {
+    - codigo: String
+    - nombre: String
+    + AgregarMoneda(Moneda: Moneda): void 
+    + buscarMoneda(codigo: String): Moneda
+}
 
-class MedioDePago
-MedioDePago : +String CCI
+class Cliente {
+    - nombre: String
+    - direccion: String
+    - saldo: double
+    - listaDeTransacciones: List<Transaccion>
+    + Cliente(nombre: String, direccion: String, saldo: double)
+    + depositar(monto: double): void
+    + retirar(monto: double): boolean
+    + getSaldo(): double
+    + agregarTransaccion(transaccion: Transaccion): void
+}
 
-class Moneda
-Moneda : +String Nombre
+class MediodePago {
+    - Cliente : String
+    - CCI : String
+    
+    + Cuenta(Cliente: String, CCI: String)
+    + getCliente(): String
+    + setCliente(nuevoCliente: String): void
+    + getCCI(): String
+    + setCCI(nuevaCCI: String): void
+}
 
-class TasaDeCambio
-TasaDeCambio : +GetInstance() TasaDeCambio
-TasaDeCambio : +ObtenerTasasDeCambio() Dictionary~String~
+abstract class Transaccion {
+    - Cliente : String
+    - TasadeCambio : String
+    - fecha: date
+    - monto : double
+    + Transaccion( fecha: date, tipo: String, monto: double, descripcion: String)
+    + getFecha(): date
+    + getTipo(): String
+    + getMonto(): double
+    + getDescripcion(): String
+}
 
-class Token
-Token : +String Value
+class TasadeCambio {
+    
+    - Fecha : Date
+    - MonedaOrigen: String
+    - MonedaDestino: String
+    + TasadeCambio(TipoDeConversion: String, MonedaOrigen: String, MonedaDestino: String, Tasa: double)
+    + ObtenerTasadeCambio(): double
+    + ActualizarTasadeCambio(nuevaTasa: double): void
+    + implementaCambio(monto: double, divisaOrigen: Divisa, divisaDestino: Divisa): double
+}
 
-class Transaccion
-Transaccion : +TransaccionFactory Factory
-Transaccion : +RealizarConversion() Double
-
-class TransaccionMoneda
-TransaccionMoneda : +RealizarConversion() Double
-
-class TransaccionFactory
-TransaccionFactory : +CrearTransaccion() Transaccion
-
-class TokenBuilder
-TokenBuilder : +AddRandomChars() TokenBuilder
-TokenBuilder : +Build() Token
-
-
-MedioDePago <-- Cliente
-TransaccionFactory <-- Transaccion
-Transaccion <|-- TransaccionMoneda
 CasaDeCambio --> Moneda : Contiene
-Moneda --> TasaDeCambio : Tiene
-TasaDeCambio --> Transaccion : Realiza
+Moneda --> TasadeCambio : Tiene
+TasadeCambio --> Transaccion : Realiza
 Transaccion --> Cliente : Realiza
 CasaDeCambio --> Cliente : Tiene
-Token --> TokenBuilder : Realiza
+Transaccion --> MediodePago : Realiza
 
 ```
