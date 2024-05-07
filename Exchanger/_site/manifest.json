@@ -1,0 +1,268 @@
+{
+  "source_base_path": "C:/Users/Jaime/OneDrive/Escritorio/Nueva carpeta (7)/Exchanger",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Exchanger.md",
+      "output": {
+        ".html": {
+          "relative_path": "Exchanger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.CasaDeCambio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.CasaDeCambio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Cliente.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Cliente.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.HistorialTransaccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.HistorialTransaccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.MedioDePago.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.MedioDePago.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Moneda.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Moneda.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.TasaDeCambio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.TasaDeCambio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Tests.CasaDeCambioTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Tests.CasaDeCambioTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Tests.ClienteTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Tests.ClienteTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Tests.TasaDeCambioTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Tests.TasaDeCambioTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Tests.TransaccionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Tests.TransaccionTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Token.TokenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Token.TokenBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.Transaccion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.Transaccion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.TransaccionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.TransaccionFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.TransaccionMoneda.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.TransaccionMoneda.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Exchanger.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Exchanger.Domain.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

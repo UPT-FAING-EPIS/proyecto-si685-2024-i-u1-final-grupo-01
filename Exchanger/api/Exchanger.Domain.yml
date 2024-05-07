@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Exchanger.Domain
+  commentId: N:Exchanger.Domain
+  id: Exchanger.Domain
+  children:
+  - Exchanger.Domain.CasaDeCambio
+  - Exchanger.Domain.Cliente
+  - Exchanger.Domain.HistorialTransaccion
+  - Exchanger.Domain.MedioDePago
+  - Exchanger.Domain.Moneda
+  - Exchanger.Domain.TasaDeCambio
+  - Exchanger.Domain.Token
+  - Exchanger.Domain.Token.TokenBuilder
+  - Exchanger.Domain.Transaccion
+  - Exchanger.Domain.TransaccionFactory
+  - Exchanger.Domain.TransaccionMoneda
+  langs:
+  - csharp
+  - vb
+  name: Exchanger.Domain
+  nameWithType: Exchanger.Domain
+  fullName: Exchanger.Domain
+  type: Namespace
+  assemblies:
+  - Exchanger.Domain
+references:
+- uid: Exchanger.Domain.CasaDeCambio
+  commentId: T:Exchanger.Domain.CasaDeCambio
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.CasaDeCambio.html
+  name: CasaDeCambio
+  nameWithType: CasaDeCambio
+  fullName: Exchanger.Domain.CasaDeCambio
+- uid: Exchanger.Domain.Cliente
+  commentId: T:Exchanger.Domain.Cliente
+  href: Exchanger.Domain.Cliente.html
+  name: Cliente
+  nameWithType: Cliente
+  fullName: Exchanger.Domain.Cliente
+- uid: Exchanger.Domain.HistorialTransaccion
+  commentId: T:Exchanger.Domain.HistorialTransaccion
+  href: Exchanger.Domain.HistorialTransaccion.html
+  name: HistorialTransaccion
+  nameWithType: HistorialTransaccion
+  fullName: Exchanger.Domain.HistorialTransaccion
+- uid: Exchanger.Domain.MedioDePago
+  commentId: T:Exchanger.Domain.MedioDePago
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.MedioDePago.html
+  name: MedioDePago
+  nameWithType: MedioDePago
+  fullName: Exchanger.Domain.MedioDePago
+- uid: Exchanger.Domain.Moneda
+  commentId: T:Exchanger.Domain.Moneda
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Moneda.html
+  name: Moneda
+  nameWithType: Moneda
+  fullName: Exchanger.Domain.Moneda
+- uid: Exchanger.Domain.TasaDeCambio
+  commentId: T:Exchanger.Domain.TasaDeCambio
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.TasaDeCambio.html
+  name: TasaDeCambio
+  nameWithType: TasaDeCambio
+  fullName: Exchanger.Domain.TasaDeCambio
+- uid: Exchanger.Domain.Token
+  commentId: T:Exchanger.Domain.Token
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: Exchanger.Domain.Token
+- uid: Exchanger.Domain.Token.TokenBuilder
+  commentId: T:Exchanger.Domain.Token.TokenBuilder
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Token.html
+  name: Token.TokenBuilder
+  nameWithType: Token.TokenBuilder
+  fullName: Exchanger.Domain.Token.TokenBuilder
+  spec.csharp:
+  - uid: Exchanger.Domain.Token
+    name: Token
+    href: Exchanger.Domain.Token.html
+  - name: .
+  - uid: Exchanger.Domain.Token.TokenBuilder
+    name: TokenBuilder
+    href: Exchanger.Domain.Token.TokenBuilder.html
+  spec.vb:
+  - uid: Exchanger.Domain.Token
+    name: Token
+    href: Exchanger.Domain.Token.html
+  - name: .
+  - uid: Exchanger.Domain.Token.TokenBuilder
+    name: TokenBuilder
+    href: Exchanger.Domain.Token.TokenBuilder.html
+- uid: Exchanger.Domain.Transaccion
+  commentId: T:Exchanger.Domain.Transaccion
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Transaccion.html
+  name: Transaccion
+  nameWithType: Transaccion
+  fullName: Exchanger.Domain.Transaccion
+- uid: Exchanger.Domain.TransaccionMoneda
+  commentId: T:Exchanger.Domain.TransaccionMoneda
+  href: Exchanger.Domain.TransaccionMoneda.html
+  name: TransaccionMoneda
+  nameWithType: TransaccionMoneda
+  fullName: Exchanger.Domain.TransaccionMoneda
+- uid: Exchanger.Domain.TransaccionFactory
+  commentId: T:Exchanger.Domain.TransaccionFactory
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.TransaccionFactory.html
+  name: TransaccionFactory
+  nameWithType: TransaccionFactory
+  fullName: Exchanger.Domain.TransaccionFactory
+- uid: Exchanger.Domain
+  commentId: N:Exchanger.Domain
+  href: Exchanger.html
+  name: Exchanger.Domain
+  nameWithType: Exchanger.Domain
+  fullName: Exchanger.Domain
+  spec.csharp:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+  spec.vb:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html

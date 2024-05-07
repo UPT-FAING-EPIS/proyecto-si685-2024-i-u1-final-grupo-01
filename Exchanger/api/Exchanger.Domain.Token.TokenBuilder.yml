@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: Exchanger.Domain.Token.TokenBuilder
+  commentId: T:Exchanger.Domain.Token.TokenBuilder
+  id: Token.TokenBuilder
+  parent: Exchanger.Domain
+  children:
+  - Exchanger.Domain.Token.TokenBuilder.#ctor
+  - Exchanger.Domain.Token.TokenBuilder.AddRandomChars(System.Int32)
+  - Exchanger.Domain.Token.TokenBuilder.Build
+  langs:
+  - csharp
+  - vb
+  name: Token.TokenBuilder
+  nameWithType: Token.TokenBuilder
+  fullName: Exchanger.Domain.Token.TokenBuilder
+  type: Class
+  source:
+    id: TokenBuilder
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Token.cs
+    startLine: 12
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public class Token.TokenBuilder
+    content.vb: Public Class Token.TokenBuilder
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Exchanger.Domain.Token.TokenBuilder.#ctor
+  commentId: M:Exchanger.Domain.Token.TokenBuilder.#ctor
+  id: '#ctor'
+  parent: Exchanger.Domain.Token.TokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: TokenBuilder()
+  nameWithType: Token.TokenBuilder.TokenBuilder()
+  fullName: Exchanger.Domain.Token.TokenBuilder.TokenBuilder()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Token.cs
+    startLine: 16
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public TokenBuilder()
+    content.vb: Public Sub New()
+  overload: Exchanger.Domain.Token.TokenBuilder.#ctor*
+  nameWithType.vb: Token.TokenBuilder.New()
+  fullName.vb: Exchanger.Domain.Token.TokenBuilder.New()
+  name.vb: New()
+- uid: Exchanger.Domain.Token.TokenBuilder.AddRandomChars(System.Int32)
+  commentId: M:Exchanger.Domain.Token.TokenBuilder.AddRandomChars(System.Int32)
+  id: AddRandomChars(System.Int32)
+  parent: Exchanger.Domain.Token.TokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddRandomChars(int)
+  nameWithType: Token.TokenBuilder.AddRandomChars(int)
+  fullName: Exchanger.Domain.Token.TokenBuilder.AddRandomChars(int)
+  type: Method
+  source:
+    id: AddRandomChars
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Token.cs
+    startLine: 21
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public Token.TokenBuilder AddRandomChars(int length)
+    parameters:
+    - id: length
+      type: System.Int32
+    return:
+      type: Exchanger.Domain.Token.TokenBuilder
+    content.vb: Public Function AddRandomChars(length As Integer) As Token.TokenBuilder
+  overload: Exchanger.Domain.Token.TokenBuilder.AddRandomChars*
+  nameWithType.vb: Token.TokenBuilder.AddRandomChars(Integer)
+  fullName.vb: Exchanger.Domain.Token.TokenBuilder.AddRandomChars(Integer)
+  name.vb: AddRandomChars(Integer)
+- uid: Exchanger.Domain.Token.TokenBuilder.Build
+  commentId: M:Exchanger.Domain.Token.TokenBuilder.Build
+  id: Build
+  parent: Exchanger.Domain.Token.TokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: Token.TokenBuilder.Build()
+  fullName: Exchanger.Domain.Token.TokenBuilder.Build()
+  type: Method
+  source:
+    id: Build
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Token.cs
+    startLine: 32
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public Token Build()
+    return:
+      type: Exchanger.Domain.Token
+    content.vb: Public Function Build() As Token
+  overload: Exchanger.Domain.Token.TokenBuilder.Build*
+references:
+- uid: Exchanger.Domain
+  commentId: N:Exchanger.Domain
+  href: Exchanger.html
+  name: Exchanger.Domain
+  nameWithType: Exchanger.Domain
+  fullName: Exchanger.Domain
+  spec.csharp:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+  spec.vb:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Exchanger.Domain.Token.TokenBuilder.#ctor*
+  commentId: Overload:Exchanger.Domain.Token.TokenBuilder.#ctor
+  href: Exchanger.Domain.Token.TokenBuilder.html#Exchanger_Domain_Token_TokenBuilder__ctor
+  name: TokenBuilder
+  nameWithType: Token.TokenBuilder.TokenBuilder
+  fullName: Exchanger.Domain.Token.TokenBuilder.TokenBuilder
+  nameWithType.vb: Token.TokenBuilder.New
+  fullName.vb: Exchanger.Domain.Token.TokenBuilder.New
+  name.vb: New
+- uid: Exchanger.Domain.Token.TokenBuilder.AddRandomChars*
+  commentId: Overload:Exchanger.Domain.Token.TokenBuilder.AddRandomChars
+  href: Exchanger.Domain.Token.TokenBuilder.html#Exchanger_Domain_Token_TokenBuilder_AddRandomChars_System_Int32_
+  name: AddRandomChars
+  nameWithType: Token.TokenBuilder.AddRandomChars
+  fullName: Exchanger.Domain.Token.TokenBuilder.AddRandomChars
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Exchanger.Domain.Token.TokenBuilder
+  commentId: T:Exchanger.Domain.Token.TokenBuilder
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Token.html
+  name: Token.TokenBuilder
+  nameWithType: Token.TokenBuilder
+  fullName: Exchanger.Domain.Token.TokenBuilder
+  spec.csharp:
+  - uid: Exchanger.Domain.Token
+    name: Token
+    href: Exchanger.Domain.Token.html
+  - name: .
+  - uid: Exchanger.Domain.Token.TokenBuilder
+    name: TokenBuilder
+    href: Exchanger.Domain.Token.TokenBuilder.html
+  spec.vb:
+  - uid: Exchanger.Domain.Token
+    name: Token
+    href: Exchanger.Domain.Token.html
+  - name: .
+  - uid: Exchanger.Domain.Token.TokenBuilder
+    name: TokenBuilder
+    href: Exchanger.Domain.Token.TokenBuilder.html
+- uid: Exchanger.Domain.Token.TokenBuilder.Build*
+  commentId: Overload:Exchanger.Domain.Token.TokenBuilder.Build
+  href: Exchanger.Domain.Token.TokenBuilder.html#Exchanger_Domain_Token_TokenBuilder_Build
+  name: Build
+  nameWithType: Token.TokenBuilder.Build
+  fullName: Exchanger.Domain.Token.TokenBuilder.Build
+- uid: Exchanger.Domain.Token
+  commentId: T:Exchanger.Domain.Token
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: Exchanger.Domain.Token

@@ -1003,11 +1003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain.Tests\\Exchanger.Domain.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain.Tests\\Exchanger.Domain.Tests.csproj",
       "projectName": "Exchanger.Domain.Tests",
-      "projectPath": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain.Tests\\Exchanger.Domain.Tests.csproj",
+      "projectPath": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain.Tests\\Exchanger.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\ELVIS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain.Tests\\obj\\",
+      "outputPath": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ELVIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1024,8 +1024,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj": {
-              "projectPath": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj"
+            "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj": {
+              "projectPath": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iBcXgMy+y7GSCu3LYIJiz4j2C5q9+caU0yKz7fzlMgiMuPL4L9q3G9e6SLBS2Bt2LPbXk9tXdb8tvufjXeYVEg==",
+  "dgSpecHash": "+Gx0Fn1hBzmhi1LSpC+a2wl0zx+CuKzI3IDQZG2WJJGVUZTgVjDxU4z+c7GQSbUc134J53BPucquRYRkwn0qJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain.Tests\\Exchanger.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain.Tests\\Exchanger.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELVIS\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ELVIS\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

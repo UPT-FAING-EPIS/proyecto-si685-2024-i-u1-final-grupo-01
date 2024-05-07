@@ -1,0 +1,107 @@
+{
+  "Exchanger.html": {
+    "href": "Exchanger.html",
+    "title": "",
+    "keywords": "classDiagram class CasaDeCambio CasaDeCambio : +GetInstance() CasaDeCambio class Cliente Cliente : +String NombreUsuario Cliente : +MedioDePago MedioDePago Cliente : +RealizarTransaccion() Boolean Cliente : +VerSaldoActual() Void Cliente : +VerHistorial() String Cliente : +LimpiarHistorialTransacciones() Void Cliente : +Depositar() Boolean Cliente : +Retirar() Boolean Cliente : +VerificarCredenciales() Boolean class HistorialTransaccion HistorialTransaccion : +DateTime Fecha HistorialTransaccion : +Double Cantidad HistorialTransaccion : +String MonedaOrigen HistorialTransaccion : +String MonedaDestino HistorialTransaccion : +Double CantidadConvertida class MedioDePago MedioDePago : +String CCI class Moneda Moneda : +String Nombre class TasaDeCambio TasaDeCambio : +GetInstance() TasaDeCambio TasaDeCambio : +ObtenerTasasDeCambio() Dictionary~String~ class Token Token : +String Value class Transaccion Transaccion : +TransaccionFactory Factory Transaccion : +RealizarConversion() Double class TransaccionMoneda TransaccionMoneda : +RealizarConversion() Double class TransaccionFactory TransaccionFactory : +CrearTransaccion() Transaccion class TokenBuilder TokenBuilder : +AddRandomChars() TokenBuilder TokenBuilder : +Build() Token MedioDePago <-- Cliente TransaccionFactory <-- Transaccion Transaccion <|-- TransaccionMoneda"
+  },
+  "api/Exchanger.Domain.CasaDeCambio.html": {
+    "href": "api/Exchanger.Domain.CasaDeCambio.html",
+    "title": "Class CasaDeCambio",
+    "keywords": "Class CasaDeCambio Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class CasaDeCambio Inheritance object CasaDeCambio Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInstance() public static CasaDeCambio GetInstance() Returns CasaDeCambio"
+  },
+  "api/Exchanger.Domain.Cliente.html": {
+    "href": "api/Exchanger.Domain.Cliente.html",
+    "title": "Class Cliente",
+    "keywords": "Class Cliente Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class Cliente Inheritance object Cliente Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Cliente(string, string, string?) public Cliente(string nombreUsuario, string contraseña, string? token = null) Parameters nombreUsuario string contraseña string token string Fields historialTransacciones public List<HistorialTransaccion> historialTransacciones Field Value List<HistorialTransaccion> saldoPorMoneda public Dictionary<string, double> saldoPorMoneda Field Value Dictionary<string, double> Properties MedioDePago public MedioDePago? MedioDePago { get; set; } Property Value MedioDePago NombreUsuario public string? NombreUsuario { get; } Property Value string Methods Depositar(double, string) public bool Depositar(double cantidad, string tipoMoneda) Parameters cantidad double tipoMoneda string Returns bool LimpiarHistorialTransacciones() public void LimpiarHistorialTransacciones() RealizarTransaccion(double, string, string, double) public bool RealizarTransaccion(double cantidad, string monedaOrigen, string monedaDestino, double cantidadConvertida) Parameters cantidad double monedaOrigen string monedaDestino string cantidadConvertida double Returns bool Retirar(double, string) public bool Retirar(double cantidad, string tipoMoneda) Parameters cantidad double tipoMoneda string Returns bool VerHistorial() public string VerHistorial() Returns string VerSaldoActual() public void VerSaldoActual() VerificarCredenciales(string, string, string?) public bool VerificarCredenciales(string nombreUsuario, string contraseña, string? token = null) Parameters nombreUsuario string contraseña string token string Returns bool"
+  },
+  "api/Exchanger.Domain.HistorialTransaccion.html": {
+    "href": "api/Exchanger.Domain.HistorialTransaccion.html",
+    "title": "Class HistorialTransaccion",
+    "keywords": "Class HistorialTransaccion Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class HistorialTransaccion Inheritance object HistorialTransaccion Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors HistorialTransaccion(DateTime, double, string, string, double) public HistorialTransaccion(DateTime fecha, double cantidad, string monedaOrigen, string monedaDestino, double cantidadConvertida) Parameters fecha DateTime cantidad double monedaOrigen string monedaDestino string cantidadConvertida double Properties Cantidad public double Cantidad { get; } Property Value double CantidadConvertida public double CantidadConvertida { get; } Property Value double Fecha public DateTime Fecha { get; } Property Value DateTime MonedaDestino public string MonedaDestino { get; } Property Value string MonedaOrigen public string MonedaOrigen { get; } Property Value string"
+  },
+  "api/Exchanger.Domain.MedioDePago.html": {
+    "href": "api/Exchanger.Domain.MedioDePago.html",
+    "title": "Class MedioDePago",
+    "keywords": "Class MedioDePago Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class MedioDePago Inheritance object MedioDePago Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors MedioDePago(string) public MedioDePago(string cci) Parameters cci string Properties CCI public string CCI { get; set; } Property Value string"
+  },
+  "api/Exchanger.Domain.Moneda.html": {
+    "href": "api/Exchanger.Domain.Moneda.html",
+    "title": "Class Moneda",
+    "keywords": "Class Moneda Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class Moneda Inheritance object Moneda Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Moneda(string) public Moneda(string nombre) Parameters nombre string Fields EUR public static Moneda EUR Field Value Moneda GBP public static Moneda GBP Field Value Moneda PEN public static Moneda PEN Field Value Moneda USD public static Moneda USD Field Value Moneda Properties Nombre public string Nombre { get; } Property Value string"
+  },
+  "api/Exchanger.Domain.TasaDeCambio.html": {
+    "href": "api/Exchanger.Domain.TasaDeCambio.html",
+    "title": "Class TasaDeCambio",
+    "keywords": "Class TasaDeCambio Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class TasaDeCambio Inheritance object TasaDeCambio Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInstance() public static TasaDeCambio GetInstance() Returns TasaDeCambio ObtenerTasasDeCambio() public Dictionary<string, double> ObtenerTasasDeCambio() Returns Dictionary<string, double>"
+  },
+  "api/Exchanger.Domain.Tests.CasaDeCambioTests.html": {
+    "href": "api/Exchanger.Domain.Tests.CasaDeCambioTests.html",
+    "title": "Class CasaDeCambioTests",
+    "keywords": "Class CasaDeCambioTests Namespace Exchanger.Domain.Tests Assembly Exchanger.Domain.Tests.dll [TestFixture] public class CasaDeCambioTests Inheritance object CasaDeCambioTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Depositar_AddsToBalance() [Test] public void Depositar_AddsToBalance() Depositar_ReturnsFalse_WhenInvalidCurrency() [Test] public void Depositar_ReturnsFalse_WhenInvalidCurrency() RealizarTransaccion_AddsToHistorial_WhenSuccessful() [Test] public void RealizarTransaccion_AddsToHistorial_WhenSuccessful() RealizarTransaccion_ReturnsFalse_WhenInsufficientBalance() [Test] public void RealizarTransaccion_ReturnsFalse_WhenInsufficientBalance() RealizarTransaccion_ReturnsFalse_WhenInvalidMonedaDestino() [Test] public void RealizarTransaccion_ReturnsFalse_WhenInvalidMonedaDestino() RealizarTransaccion_ReturnsFalse_WhenInvalidMonedaOrigen() [Test] public void RealizarTransaccion_ReturnsFalse_WhenInvalidMonedaOrigen() RealizarTransaccion_ReturnsTrue_WhenSufficientBalance() [Test] public void RealizarTransaccion_ReturnsTrue_WhenSufficientBalance() VerHistorial_ReturnsCorrectFormat_WhenTransactionsExist() [Test] public void VerHistorial_ReturnsCorrectFormat_WhenTransactionsExist() VerificarCredenciales_InvalidCredentials_ReturnsFalse() [Test] public void VerificarCredenciales_InvalidCredentials_ReturnsFalse() VerificarCredenciales_NullTokenWithProvidedToken_ReturnsFalse() [Test] public void VerificarCredenciales_NullTokenWithProvidedToken_ReturnsFalse() VerificarCredenciales_NullToken_ReturnsTrue() [Test] public void VerificarCredenciales_NullToken_ReturnsTrue() VerificarCredenciales_ValidCredentials_ReturnsTrue() [Test] public void VerificarCredenciales_ValidCredentials_ReturnsTrue()"
+  },
+  "api/Exchanger.Domain.Tests.ClienteTests.html": {
+    "href": "api/Exchanger.Domain.Tests.ClienteTests.html",
+    "title": "Class ClienteTests",
+    "keywords": "Class ClienteTests Namespace Exchanger.Domain.Tests Assembly Exchanger.Domain.Tests.dll public class ClienteTests Inheritance object ClienteTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods VerificarCredenciales_ValidCredentials_ReturnsTrue() [Test] public void VerificarCredenciales_ValidCredentials_ReturnsTrue()"
+  },
+  "api/Exchanger.Domain.Tests.TasaDeCambioTests.html": {
+    "href": "api/Exchanger.Domain.Tests.TasaDeCambioTests.html",
+    "title": "Class TasaDeCambioTests",
+    "keywords": "Class TasaDeCambioTests Namespace Exchanger.Domain.Tests Assembly Exchanger.Domain.Tests.dll public class TasaDeCambioTests Inheritance object TasaDeCambioTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInstance_ReturnsSameInstance() [Test] public void GetInstance_ReturnsSameInstance() ObtenerTasasDeCambio_ReturnsNonEmptyDictionary() [Test] public void ObtenerTasasDeCambio_ReturnsNonEmptyDictionary()"
+  },
+  "api/Exchanger.Domain.Tests.TransaccionTests.html": {
+    "href": "api/Exchanger.Domain.Tests.TransaccionTests.html",
+    "title": "Class TransaccionTests",
+    "keywords": "Class TransaccionTests Namespace Exchanger.Domain.Tests Assembly Exchanger.Domain.Tests.dll public class TransaccionTests Inheritance object TransaccionTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods RealizarConversion_ValidConversion_ReturnsCorrectValue() [Test] public void RealizarConversion_ValidConversion_ReturnsCorrectValue()"
+  },
+  "api/Exchanger.Domain.Tests.html": {
+    "href": "api/Exchanger.Domain.Tests.html",
+    "title": "Namespace Exchanger.Domain.Tests",
+    "keywords": "Namespace Exchanger.Domain.Tests Classes CasaDeCambioTests"
+  },
+  "api/Exchanger.Domain.Token.TokenBuilder.html": {
+    "href": "api/Exchanger.Domain.Token.TokenBuilder.html",
+    "title": "Class Token.TokenBuilder",
+    "keywords": "Class Token.TokenBuilder Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class Token.TokenBuilder Inheritance object Token.TokenBuilder Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TokenBuilder() public TokenBuilder() Methods AddRandomChars(int) public Token.TokenBuilder AddRandomChars(int length) Parameters length int Returns Token.TokenBuilder Build() public Token Build() Returns Token"
+  },
+  "api/Exchanger.Domain.Token.html": {
+    "href": "api/Exchanger.Domain.Token.html",
+    "title": "Class Token",
+    "keywords": "Class Token Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class Token Inheritance object Token Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Token(string) public Token(string value) Parameters value string Properties Value public string Value { get; } Property Value string"
+  },
+  "api/Exchanger.Domain.Transaccion.html": {
+    "href": "api/Exchanger.Domain.Transaccion.html",
+    "title": "Class Transaccion",
+    "keywords": "Class Transaccion Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public abstract class Transaccion Inheritance object Transaccion Derived TransaccionMoneda Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Factory public static TransaccionFactory Factory { get; } Property Value TransaccionFactory Methods RealizarConversion(double, string, string) public abstract double RealizarConversion(double cantidad, string monedaOrigen, string monedaDestino) Parameters cantidad double monedaOrigen string monedaDestino string Returns double"
+  },
+  "api/Exchanger.Domain.TransaccionFactory.html": {
+    "href": "api/Exchanger.Domain.TransaccionFactory.html",
+    "title": "Class TransaccionFactory",
+    "keywords": "Class TransaccionFactory Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class TransaccionFactory Inheritance object TransaccionFactory Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CrearTransaccion(Dictionary<string, double>) public Transaccion CrearTransaccion(Dictionary<string, double> tasasDeCambio) Parameters tasasDeCambio Dictionary<string, double> Returns Transaccion"
+  },
+  "api/Exchanger.Domain.TransaccionMoneda.html": {
+    "href": "api/Exchanger.Domain.TransaccionMoneda.html",
+    "title": "Class TransaccionMoneda",
+    "keywords": "Class TransaccionMoneda Namespace Exchanger.Domain Assembly Exchanger.Domain.dll public class TransaccionMoneda : Transaccion Inheritance object Transaccion TransaccionMoneda Inherited Members Transaccion.Factory object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors TransaccionMoneda(Dictionary<string, double>) public TransaccionMoneda(Dictionary<string, double> tasasDeCambio) Parameters tasasDeCambio Dictionary<string, double> Methods RealizarConversion(double, string, string) public override double RealizarConversion(double cantidad, string monedaOrigen, string monedaDestino) Parameters cantidad double monedaOrigen string monedaDestino string Returns double"
+  },
+  "api/Exchanger.Domain.html": {
+    "href": "api/Exchanger.Domain.html",
+    "title": "Namespace Exchanger.Domain",
+    "keywords": "Namespace Exchanger.Domain Classes CasaDeCambio Cliente HistorialTransaccion MedioDePago Moneda TasaDeCambio Token Token.TokenBuilder Transaccion TransaccionFactory TransaccionMoneda"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE.",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

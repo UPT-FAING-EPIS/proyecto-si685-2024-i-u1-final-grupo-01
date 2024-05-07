@@ -1,0 +1,33 @@
+### YamlMime:TableOfContent
+items:
+- uid: Exchanger.Domain
+  name: Exchanger.Domain
+  items:
+  - uid: Exchanger.Domain.CasaDeCambio
+    name: CasaDeCambio
+  - uid: Exchanger.Domain.Cliente
+    name: Cliente
+  - uid: Exchanger.Domain.HistorialTransaccion
+    name: HistorialTransaccion
+  - uid: Exchanger.Domain.MedioDePago
+    name: MedioDePago
+  - uid: Exchanger.Domain.Moneda
+    name: Moneda
+  - uid: Exchanger.Domain.TasaDeCambio
+    name: TasaDeCambio
+  - uid: Exchanger.Domain.Token
+    name: Token
+  - uid: Exchanger.Domain.Token.TokenBuilder
+    name: Token.TokenBuilder
+  - uid: Exchanger.Domain.Transaccion
+    name: Transaccion
+  - uid: Exchanger.Domain.TransaccionFactory
+    name: TransaccionFactory
+  - uid: Exchanger.Domain.TransaccionMoneda
+    name: TransaccionMoneda
+- uid: Exchanger.Domain.Tests
+  name: Exchanger.Domain.Tests
+  items:
+  - uid: Exchanger.Domain.Tests.CasaDeCambioTests
+    name: CasaDeCambioTests
+memberLayout: SamePage

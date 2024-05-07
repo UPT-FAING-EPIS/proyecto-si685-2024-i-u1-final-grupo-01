@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Exchanger.Domain.Tests
+  commentId: N:Exchanger.Domain.Tests
+  id: Exchanger.Domain.Tests
+  children:
+  - Exchanger.Domain.Tests.CasaDeCambioTests
+  langs:
+  - csharp
+  - vb
+  name: Exchanger.Domain.Tests
+  nameWithType: Exchanger.Domain.Tests
+  fullName: Exchanger.Domain.Tests
+  type: Namespace
+  assemblies:
+  - Exchanger.Domain.Tests
+references:
+- uid: Exchanger.Domain.Tests.CasaDeCambioTests
+  commentId: T:Exchanger.Domain.Tests.CasaDeCambioTests
+  href: Exchanger.Domain.Tests.CasaDeCambioTests.html
+  name: CasaDeCambioTests
+  nameWithType: CasaDeCambioTests
+  fullName: Exchanger.Domain.Tests.CasaDeCambioTests

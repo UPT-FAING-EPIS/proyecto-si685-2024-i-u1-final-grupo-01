@@ -1,0 +1,533 @@
+### YamlMime:ManagedReference
+items:
+- uid: Exchanger.Domain.HistorialTransaccion
+  commentId: T:Exchanger.Domain.HistorialTransaccion
+  id: HistorialTransaccion
+  parent: Exchanger.Domain
+  children:
+  - Exchanger.Domain.HistorialTransaccion.#ctor(System.DateTime,System.Double,System.String,System.String,System.Double)
+  - Exchanger.Domain.HistorialTransaccion.Cantidad
+  - Exchanger.Domain.HistorialTransaccion.CantidadConvertida
+  - Exchanger.Domain.HistorialTransaccion.Fecha
+  - Exchanger.Domain.HistorialTransaccion.MonedaDestino
+  - Exchanger.Domain.HistorialTransaccion.MonedaOrigen
+  langs:
+  - csharp
+  - vb
+  name: HistorialTransaccion
+  nameWithType: HistorialTransaccion
+  fullName: Exchanger.Domain.HistorialTransaccion
+  type: Class
+  source:
+    id: HistorialTransaccion
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 136
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public class HistorialTransaccion
+    content.vb: Public Class HistorialTransaccion
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Exchanger.Domain.HistorialTransaccion.Fecha
+  commentId: P:Exchanger.Domain.HistorialTransaccion.Fecha
+  id: Fecha
+  parent: Exchanger.Domain.HistorialTransaccion
+  langs:
+  - csharp
+  - vb
+  name: Fecha
+  nameWithType: HistorialTransaccion.Fecha
+  fullName: Exchanger.Domain.HistorialTransaccion.Fecha
+  type: Property
+  source:
+    id: Fecha
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 138
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public DateTime Fecha { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public ReadOnly Property Fecha As Date
+  overload: Exchanger.Domain.HistorialTransaccion.Fecha*
+- uid: Exchanger.Domain.HistorialTransaccion.Cantidad
+  commentId: P:Exchanger.Domain.HistorialTransaccion.Cantidad
+  id: Cantidad
+  parent: Exchanger.Domain.HistorialTransaccion
+  langs:
+  - csharp
+  - vb
+  name: Cantidad
+  nameWithType: HistorialTransaccion.Cantidad
+  fullName: Exchanger.Domain.HistorialTransaccion.Cantidad
+  type: Property
+  source:
+    id: Cantidad
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 139
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public double Cantidad { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Cantidad As Double
+  overload: Exchanger.Domain.HistorialTransaccion.Cantidad*
+- uid: Exchanger.Domain.HistorialTransaccion.MonedaOrigen
+  commentId: P:Exchanger.Domain.HistorialTransaccion.MonedaOrigen
+  id: MonedaOrigen
+  parent: Exchanger.Domain.HistorialTransaccion
+  langs:
+  - csharp
+  - vb
+  name: MonedaOrigen
+  nameWithType: HistorialTransaccion.MonedaOrigen
+  fullName: Exchanger.Domain.HistorialTransaccion.MonedaOrigen
+  type: Property
+  source:
+    id: MonedaOrigen
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 140
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public string MonedaOrigen { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MonedaOrigen As String
+  overload: Exchanger.Domain.HistorialTransaccion.MonedaOrigen*
+- uid: Exchanger.Domain.HistorialTransaccion.MonedaDestino
+  commentId: P:Exchanger.Domain.HistorialTransaccion.MonedaDestino
+  id: MonedaDestino
+  parent: Exchanger.Domain.HistorialTransaccion
+  langs:
+  - csharp
+  - vb
+  name: MonedaDestino
+  nameWithType: HistorialTransaccion.MonedaDestino
+  fullName: Exchanger.Domain.HistorialTransaccion.MonedaDestino
+  type: Property
+  source:
+    id: MonedaDestino
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 141
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public string MonedaDestino { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MonedaDestino As String
+  overload: Exchanger.Domain.HistorialTransaccion.MonedaDestino*
+- uid: Exchanger.Domain.HistorialTransaccion.CantidadConvertida
+  commentId: P:Exchanger.Domain.HistorialTransaccion.CantidadConvertida
+  id: CantidadConvertida
+  parent: Exchanger.Domain.HistorialTransaccion
+  langs:
+  - csharp
+  - vb
+  name: CantidadConvertida
+  nameWithType: HistorialTransaccion.CantidadConvertida
+  fullName: Exchanger.Domain.HistorialTransaccion.CantidadConvertida
+  type: Property
+  source:
+    id: CantidadConvertida
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 142
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public double CantidadConvertida { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property CantidadConvertida As Double
+  overload: Exchanger.Domain.HistorialTransaccion.CantidadConvertida*
+- uid: Exchanger.Domain.HistorialTransaccion.#ctor(System.DateTime,System.Double,System.String,System.String,System.Double)
+  commentId: M:Exchanger.Domain.HistorialTransaccion.#ctor(System.DateTime,System.Double,System.String,System.String,System.Double)
+  id: '#ctor(System.DateTime,System.Double,System.String,System.String,System.Double)'
+  parent: Exchanger.Domain.HistorialTransaccion
+  langs:
+  - csharp
+  - vb
+  name: HistorialTransaccion(DateTime, double, string, string, double)
+  nameWithType: HistorialTransaccion.HistorialTransaccion(DateTime, double, string, string, double)
+  fullName: Exchanger.Domain.HistorialTransaccion.HistorialTransaccion(System.DateTime, double, string, string, double)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Cliente.cs
+    startLine: 144
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public HistorialTransaccion(DateTime fecha, double cantidad, string monedaOrigen, string monedaDestino, double cantidadConvertida)
+    parameters:
+    - id: fecha
+      type: System.DateTime
+    - id: cantidad
+      type: System.Double
+    - id: monedaOrigen
+      type: System.String
+    - id: monedaDestino
+      type: System.String
+    - id: cantidadConvertida
+      type: System.Double
+    content.vb: Public Sub New(fecha As Date, cantidad As Double, monedaOrigen As String, monedaDestino As String, cantidadConvertida As Double)
+  overload: Exchanger.Domain.HistorialTransaccion.#ctor*
+  nameWithType.vb: HistorialTransaccion.New(Date, Double, String, String, Double)
+  fullName.vb: Exchanger.Domain.HistorialTransaccion.New(Date, Double, String, String, Double)
+  name.vb: New(Date, Double, String, String, Double)
+references:
+- uid: Exchanger.Domain
+  commentId: N:Exchanger.Domain
+  href: Exchanger.html
+  name: Exchanger.Domain
+  nameWithType: Exchanger.Domain
+  fullName: Exchanger.Domain
+  spec.csharp:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+  spec.vb:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Exchanger.Domain.HistorialTransaccion.Fecha*
+  commentId: Overload:Exchanger.Domain.HistorialTransaccion.Fecha
+  href: Exchanger.Domain.HistorialTransaccion.html#Exchanger_Domain_HistorialTransaccion_Fecha
+  name: Fecha
+  nameWithType: HistorialTransaccion.Fecha
+  fullName: Exchanger.Domain.HistorialTransaccion.Fecha
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: Exchanger.Domain.HistorialTransaccion.Cantidad*
+  commentId: Overload:Exchanger.Domain.HistorialTransaccion.Cantidad
+  href: Exchanger.Domain.HistorialTransaccion.html#Exchanger_Domain_HistorialTransaccion_Cantidad
+  name: Cantidad
+  nameWithType: HistorialTransaccion.Cantidad
+  fullName: Exchanger.Domain.HistorialTransaccion.Cantidad
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Exchanger.Domain.HistorialTransaccion.MonedaOrigen*
+  commentId: Overload:Exchanger.Domain.HistorialTransaccion.MonedaOrigen
+  href: Exchanger.Domain.HistorialTransaccion.html#Exchanger_Domain_HistorialTransaccion_MonedaOrigen
+  name: MonedaOrigen
+  nameWithType: HistorialTransaccion.MonedaOrigen
+  fullName: Exchanger.Domain.HistorialTransaccion.MonedaOrigen
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Exchanger.Domain.HistorialTransaccion.MonedaDestino*
+  commentId: Overload:Exchanger.Domain.HistorialTransaccion.MonedaDestino
+  href: Exchanger.Domain.HistorialTransaccion.html#Exchanger_Domain_HistorialTransaccion_MonedaDestino
+  name: MonedaDestino
+  nameWithType: HistorialTransaccion.MonedaDestino
+  fullName: Exchanger.Domain.HistorialTransaccion.MonedaDestino
+- uid: Exchanger.Domain.HistorialTransaccion.CantidadConvertida*
+  commentId: Overload:Exchanger.Domain.HistorialTransaccion.CantidadConvertida
+  href: Exchanger.Domain.HistorialTransaccion.html#Exchanger_Domain_HistorialTransaccion_CantidadConvertida
+  name: CantidadConvertida
+  nameWithType: HistorialTransaccion.CantidadConvertida
+  fullName: Exchanger.Domain.HistorialTransaccion.CantidadConvertida
+- uid: Exchanger.Domain.HistorialTransaccion.#ctor*
+  commentId: Overload:Exchanger.Domain.HistorialTransaccion.#ctor
+  href: Exchanger.Domain.HistorialTransaccion.html#Exchanger_Domain_HistorialTransaccion__ctor_System_DateTime_System_Double_System_String_System_String_System_Double_
+  name: HistorialTransaccion
+  nameWithType: HistorialTransaccion.HistorialTransaccion
+  fullName: Exchanger.Domain.HistorialTransaccion.HistorialTransaccion
+  nameWithType.vb: HistorialTransaccion.New
+  fullName.vb: Exchanger.Domain.HistorialTransaccion.New
+  name.vb: New

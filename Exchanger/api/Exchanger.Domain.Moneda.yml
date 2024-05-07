@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: Exchanger.Domain.Moneda
+  commentId: T:Exchanger.Domain.Moneda
+  id: Moneda
+  parent: Exchanger.Domain
+  children:
+  - Exchanger.Domain.Moneda.#ctor(System.String)
+  - Exchanger.Domain.Moneda.EUR
+  - Exchanger.Domain.Moneda.GBP
+  - Exchanger.Domain.Moneda.Nombre
+  - Exchanger.Domain.Moneda.PEN
+  - Exchanger.Domain.Moneda.USD
+  langs:
+  - csharp
+  - vb
+  name: Moneda
+  nameWithType: Moneda
+  fullName: Exchanger.Domain.Moneda
+  type: Class
+  source:
+    id: Moneda
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 1
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public class Moneda
+    content.vb: Public Class Moneda
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Exchanger.Domain.Moneda.Nombre
+  commentId: P:Exchanger.Domain.Moneda.Nombre
+  id: Nombre
+  parent: Exchanger.Domain.Moneda
+  langs:
+  - csharp
+  - vb
+  name: Nombre
+  nameWithType: Moneda.Nombre
+  fullName: Exchanger.Domain.Moneda.Nombre
+  type: Property
+  source:
+    id: Nombre
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 3
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public string Nombre { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Nombre As String
+  overload: Exchanger.Domain.Moneda.Nombre*
+- uid: Exchanger.Domain.Moneda.#ctor(System.String)
+  commentId: M:Exchanger.Domain.Moneda.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Exchanger.Domain.Moneda
+  langs:
+  - csharp
+  - vb
+  name: Moneda(string)
+  nameWithType: Moneda.Moneda(string)
+  fullName: Exchanger.Domain.Moneda.Moneda(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 5
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public Moneda(string nombre)
+    parameters:
+    - id: nombre
+      type: System.String
+    content.vb: Public Sub New(nombre As String)
+  overload: Exchanger.Domain.Moneda.#ctor*
+  nameWithType.vb: Moneda.New(String)
+  fullName.vb: Exchanger.Domain.Moneda.New(String)
+  name.vb: New(String)
+- uid: Exchanger.Domain.Moneda.USD
+  commentId: F:Exchanger.Domain.Moneda.USD
+  id: USD
+  parent: Exchanger.Domain.Moneda
+  langs:
+  - csharp
+  - vb
+  name: USD
+  nameWithType: Moneda.USD
+  fullName: Exchanger.Domain.Moneda.USD
+  type: Field
+  source:
+    id: USD
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 11
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public static Moneda USD
+    return:
+      type: Exchanger.Domain.Moneda
+    content.vb: Public Shared USD As Moneda
+- uid: Exchanger.Domain.Moneda.EUR
+  commentId: F:Exchanger.Domain.Moneda.EUR
+  id: EUR
+  parent: Exchanger.Domain.Moneda
+  langs:
+  - csharp
+  - vb
+  name: EUR
+  nameWithType: Moneda.EUR
+  fullName: Exchanger.Domain.Moneda.EUR
+  type: Field
+  source:
+    id: EUR
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 12
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public static Moneda EUR
+    return:
+      type: Exchanger.Domain.Moneda
+    content.vb: Public Shared EUR As Moneda
+- uid: Exchanger.Domain.Moneda.GBP
+  commentId: F:Exchanger.Domain.Moneda.GBP
+  id: GBP
+  parent: Exchanger.Domain.Moneda
+  langs:
+  - csharp
+  - vb
+  name: GBP
+  nameWithType: Moneda.GBP
+  fullName: Exchanger.Domain.Moneda.GBP
+  type: Field
+  source:
+    id: GBP
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 13
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public static Moneda GBP
+    return:
+      type: Exchanger.Domain.Moneda
+    content.vb: Public Shared GBP As Moneda
+- uid: Exchanger.Domain.Moneda.PEN
+  commentId: F:Exchanger.Domain.Moneda.PEN
+  id: PEN
+  parent: Exchanger.Domain.Moneda
+  langs:
+  - csharp
+  - vb
+  name: PEN
+  nameWithType: Moneda.PEN
+  fullName: Exchanger.Domain.Moneda.PEN
+  type: Field
+  source:
+    id: PEN
+    path: C:\Users\Jaime\OneDrive\Escritorio\Nueva carpeta (7)\Exchanger\Exchanger.Domain\Moneda.cs
+    startLine: 14
+  assemblies:
+  - Exchanger.Domain
+  namespace: Exchanger.Domain
+  syntax:
+    content: public static Moneda PEN
+    return:
+      type: Exchanger.Domain.Moneda
+    content.vb: Public Shared PEN As Moneda
+references:
+- uid: Exchanger.Domain
+  commentId: N:Exchanger.Domain
+  href: Exchanger.html
+  name: Exchanger.Domain
+  nameWithType: Exchanger.Domain
+  fullName: Exchanger.Domain
+  spec.csharp:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+  spec.vb:
+  - uid: Exchanger
+    name: Exchanger
+    href: Exchanger.html
+  - name: .
+  - uid: Exchanger.Domain
+    name: Domain
+    href: Exchanger.Domain.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Exchanger.Domain.Moneda.Nombre*
+  commentId: Overload:Exchanger.Domain.Moneda.Nombre
+  href: Exchanger.Domain.Moneda.html#Exchanger_Domain_Moneda_Nombre
+  name: Nombre
+  nameWithType: Moneda.Nombre
+  fullName: Exchanger.Domain.Moneda.Nombre
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Exchanger.Domain.Moneda.#ctor*
+  commentId: Overload:Exchanger.Domain.Moneda.#ctor
+  href: Exchanger.Domain.Moneda.html#Exchanger_Domain_Moneda__ctor_System_String_
+  name: Moneda
+  nameWithType: Moneda.Moneda
+  fullName: Exchanger.Domain.Moneda.Moneda
+  nameWithType.vb: Moneda.New
+  fullName.vb: Exchanger.Domain.Moneda.New
+  name.vb: New
+- uid: Exchanger.Domain.Moneda
+  commentId: T:Exchanger.Domain.Moneda
+  parent: Exchanger.Domain
+  href: Exchanger.Domain.Moneda.html
+  name: Moneda
+  nameWithType: Moneda
+  fullName: Exchanger.Domain.Moneda

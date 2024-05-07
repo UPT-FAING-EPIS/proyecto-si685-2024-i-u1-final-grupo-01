@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj",
       "projectName": "Exchanger.Domain",
-      "projectPath": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj",
+      "projectPath": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain\\Exchanger.Domain.csproj",
       "packagesPath": "C:\\Users\\ELVIS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ELVIS\\Pictures\\AEA\\Exchanger\\Exchanger.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ELVIS\\Pictures\\Proyecto\\proyecto-si685-2024-i-u1-final-grupo-01\\Exchanger\\Exchanger.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ELVIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
